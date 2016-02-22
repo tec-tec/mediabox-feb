@@ -15,6 +15,8 @@
 		338913B01C7B56D500D1FB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338913AE1C7B56D500D1FB0F /* LaunchScreen.storyboard */; };
 		338913BB1C7B56D500D1FB0F /* RestOrankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913BA1C7B56D500D1FB0F /* RestOrankTests.m */; };
 		338913C61C7B56D500D1FB0F /* RestOrankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913C51C7B56D500D1FB0F /* RestOrankUITests.m */; };
+		338913D51C7B615600D1FB0F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913D41C7B615600D1FB0F /* Restaurant.m */; };
+		338913D61C7B618000D1FB0F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913D41C7B615600D1FB0F /* Restaurant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		338913C11C7B56D500D1FB0F /* RestOrankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestOrankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338913C51C7B56D500D1FB0F /* RestOrankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestOrankUITests.m; sourceTree = "<group>"; };
 		338913C71C7B56D500D1FB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338913D31C7B615600D1FB0F /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		338913D41C7B615600D1FB0F /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				338913A41C7B56D500D1FB0F /* AppDelegate.m */,
 				338913A61C7B56D500D1FB0F /* ViewController.h */,
 				338913A71C7B56D500D1FB0F /* ViewController.m */,
+				338913D31C7B615600D1FB0F /* Restaurant.h */,
+				338913D41C7B615600D1FB0F /* Restaurant.m */,
 				338913A91C7B56D500D1FB0F /* Main.storyboard */,
 				338913AC1C7B56D500D1FB0F /* Assets.xcassets */,
 				338913AE1C7B56D500D1FB0F /* LaunchScreen.storyboard */,
@@ -270,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338913D51C7B615600D1FB0F /* Restaurant.m in Sources */,
 				338913A81C7B56D500D1FB0F /* ViewController.m in Sources */,
 				338913A51C7B56D500D1FB0F /* AppDelegate.m in Sources */,
 				338913A21C7B56D500D1FB0F /* main.m in Sources */,
@@ -280,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338913D61C7B618000D1FB0F /* Restaurant.m in Sources */,
 				338913BB1C7B56D500D1FB0F /* RestOrankTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +508,7 @@
 				338913CC1C7B56D500D1FB0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338913CD1C7B56D500D1FB0F /* Build configuration list for PBXNativeTarget "RestOrankTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				338913CF1C7B56D500D1FB0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338913D01C7B56D500D1FB0F /* Build configuration list for PBXNativeTarget "RestOrankUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +526,7 @@
 				338913D21C7B56D500D1FB0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
