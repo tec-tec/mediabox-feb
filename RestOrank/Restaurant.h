@@ -17,6 +17,7 @@
 
 + (Restaurant *)goodRestaurant;
 + (Restaurant *)badRestaurant;
+- (instancetype)initWithName:(NSString *)name;
 
 - (NSString *)description;
 
