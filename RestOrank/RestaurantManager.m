@@ -17,6 +17,16 @@
 
 @implementation RestaurantManager
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+//        On va préferer la lazy instanciation (voir méthode -restaurants)
+//        _restaurants = [[NSMutableSet alloc] init];
+    }
+    return self;
+}
+
 -(NSArray *)allRestaurants {
 
     return self.restaurants.allObjects;
@@ -25,5 +35,14 @@
 - (void)addRestaurant:(nonnull Restaurant *)restaurant {
 
     [self.restaurants addObject:restaurant];
+}
+
+- (NSMutableSet<Restaurant *> *)restaurants {
+
+    if (_restaurants == nil) {
+        _restaurants = [NSMutableSet set];
+    }
+
+    return _restaurants;
 }
 @end
