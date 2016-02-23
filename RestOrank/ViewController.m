@@ -34,6 +34,11 @@
 
 - (IBAction)saveRestaurant:(UIButton *)sender {
 
+    //Golden path ou Early exit
+    if (self.nameTextField.text.length == 0) {
+        return;
+    }
+
     Restaurant *resto = [[Restaurant alloc] initWithName:self.nameTextField.text];
     resto.address = self.addressTextField.text;
     resto.comment = self.commentTextField.text;
