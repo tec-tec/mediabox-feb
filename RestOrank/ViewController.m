@@ -23,8 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    //C'est une méthode
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,7 +42,9 @@
     resto.comment = self.commentTextField.text;
     resto.grade = (int)self.gradeSlider.value;
 
-    NSLog(@"Resto %@ créé. Adresse : %@, comment : %@, note : %d", resto.name, resto.address, resto.comment, resto.grade);
+    [self.manager addRestaurant:resto];
+
+    NSLog(@"%@",[self.manager allRestaurants]);
 
     [self resetForm];
 }
@@ -57,5 +57,14 @@
     [self.gradeSlider setValue:5.0 animated:YES];
 
     [self.nameTextField becomeFirstResponder];
+}
+
+- (RestaurantManager *)manager {
+
+    if (_manager == nil) {
+        _manager = [[RestaurantManager alloc] init];
+    }
+
+    return _manager;
 }
 @end

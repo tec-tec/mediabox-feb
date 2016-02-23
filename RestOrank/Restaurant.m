@@ -49,6 +49,6 @@
 
 - (NSString *)description {
 
-    return @"Description du resto";
+    return [NSString stringWithFormat:@"Resto : %@", self.name];
 }
 @end
