@@ -8,6 +8,19 @@
 
 #import "RestaurantManager.h"
 
+@interface RestaurantManager ()
+
+@property (strong, nonatomic) NSMutableSet *restaurants;
+
+@end
+
 @implementation RestaurantManager
 
+-(NSArray *)allRestaurants {
+
+}
+
+- (void)addRestaurant:(Restaurant *)restaurant {
+
+}
 @end

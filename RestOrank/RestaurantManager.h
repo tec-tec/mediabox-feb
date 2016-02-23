@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class Restaurant;
 @interface RestaurantManager : NSObject
+
+- (void)addRestaurant:(Restaurant *)restaurant;
+- (NSArray *)allRestaurants;
 
 @end
