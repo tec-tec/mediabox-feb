@@ -10,6 +10,11 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *addressTextField;
+@property (weak, nonatomic) IBOutlet UITextField *commentTextField;
+@property (weak, nonatomic) IBOutlet UISlider *gradeSlider;
+- (IBAction)saveRestaurant:(id)sender;
 @end
 
 @implementation ViewController
@@ -26,4 +31,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)saveRestaurant:(id)sender {
+}
 @end
