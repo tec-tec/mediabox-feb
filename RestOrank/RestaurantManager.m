@@ -18,9 +18,11 @@
 
 -(NSArray *)allRestaurants {
 
+    return self.restaurants.allObjects;
 }
 
 - (void)addRestaurant:(Restaurant *)restaurant {
 
+    [self.restaurants addObject:restaurant];
 }
 @end
