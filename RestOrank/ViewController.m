@@ -45,5 +45,17 @@
     resto.grade = (int)self.gradeSlider.value;
 
     NSLog(@"Resto %@ créé. Adresse : %@, comment : %@, note : %d", resto.name, resto.address, resto.comment, resto.grade);
+
+    [self resetForm];
+}
+
+- (void)resetForm {
+
+    self.nameTextField.text = @"";
+    self.addressTextField.text = nil;
+    self.commentTextField.text = nil;
+    [self.gradeSlider setValue:5.0 animated:YES];
+
+    [self.nameTextField becomeFirstResponder];
 }
 @end
