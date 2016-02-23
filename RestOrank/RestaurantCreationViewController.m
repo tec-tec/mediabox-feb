@@ -6,10 +6,10 @@
 //  Copyright © 2016 Tec-Tec. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RestaurantCreationViewController.h"
 #import "Restaurant.h"
 
-@interface ViewController ()
+@interface RestaurantCreationViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *addressTextField;
@@ -18,7 +18,7 @@
 - (IBAction)saveRestaurant:(id)sender;
 @end
 
-@implementation ViewController
+@implementation RestaurantCreationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

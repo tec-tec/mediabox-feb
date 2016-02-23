@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		338913A21C7B56D500D1FB0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913A11C7B56D500D1FB0F /* main.m */; };
 		338913A51C7B56D500D1FB0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913A41C7B56D500D1FB0F /* AppDelegate.m */; };
-		338913A81C7B56D500D1FB0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913A71C7B56D500D1FB0F /* ViewController.m */; };
+		338913A81C7B56D500D1FB0F /* RestaurantCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913A71C7B56D500D1FB0F /* RestaurantCreationViewController.m */; };
 		338913AB1C7B56D500D1FB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338913A91C7B56D500D1FB0F /* Main.storyboard */; };
 		338913AD1C7B56D500D1FB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338913AC1C7B56D500D1FB0F /* Assets.xcassets */; };
 		338913B01C7B56D500D1FB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338913AE1C7B56D500D1FB0F /* LaunchScreen.storyboard */; };
@@ -43,8 +43,8 @@
 		338913A11C7B56D500D1FB0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		338913A31C7B56D500D1FB0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		338913A41C7B56D500D1FB0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		338913A61C7B56D500D1FB0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		338913A71C7B56D500D1FB0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		338913A61C7B56D500D1FB0F /* RestaurantCreationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestaurantCreationViewController.h; sourceTree = "<group>"; };
+		338913A71C7B56D500D1FB0F /* RestaurantCreationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantCreationViewController.m; sourceTree = "<group>"; };
 		338913AA1C7B56D500D1FB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		338913AC1C7B56D500D1FB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338913AF1C7B56D500D1FB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,13 +112,9 @@
 			children = (
 				338913A31C7B56D500D1FB0F /* AppDelegate.h */,
 				338913A41C7B56D500D1FB0F /* AppDelegate.m */,
-				338913A61C7B56D500D1FB0F /* ViewController.h */,
-				338913A71C7B56D500D1FB0F /* ViewController.m */,
-				338913D31C7B615600D1FB0F /* Restaurant.h */,
-				338913D41C7B615600D1FB0F /* Restaurant.m */,
-				338913D71C7C934400D1FB0F /* RestaurantManager.h */,
-				338913D81C7C934400D1FB0F /* RestaurantManager.m */,
-				338913A91C7B56D500D1FB0F /* Main.storyboard */,
+				338913DE1C7CB06800D1FB0F /* Controllers */,
+				338913DF1C7CB07700D1FB0F /* Models */,
+				338913E01C7CB08200D1FB0F /* Views */,
 				338913AC1C7B56D500D1FB0F /* Assets.xcassets */,
 				338913AE1C7B56D500D1FB0F /* LaunchScreen.storyboard */,
 				338913B11C7B56D500D1FB0F /* Info.plist */,
@@ -152,6 +148,34 @@
 				338913C71C7B56D500D1FB0F /* Info.plist */,
 			);
 			path = RestOrankUITests;
+			sourceTree = "<group>";
+		};
+		338913DE1C7CB06800D1FB0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				338913A61C7B56D500D1FB0F /* RestaurantCreationViewController.h */,
+				338913A71C7B56D500D1FB0F /* RestaurantCreationViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		338913DF1C7CB07700D1FB0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				338913D31C7B615600D1FB0F /* Restaurant.h */,
+				338913D41C7B615600D1FB0F /* Restaurant.m */,
+				338913D71C7C934400D1FB0F /* RestaurantManager.h */,
+				338913D81C7C934400D1FB0F /* RestaurantManager.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		338913E01C7CB08200D1FB0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				338913A91C7B56D500D1FB0F /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +310,7 @@
 			files = (
 				338913D91C7C934400D1FB0F /* RestaurantManager.m in Sources */,
 				338913D51C7B615600D1FB0F /* Restaurant.m in Sources */,
-				338913A81C7B56D500D1FB0F /* ViewController.m in Sources */,
+				338913A81C7B56D500D1FB0F /* RestaurantCreationViewController.m in Sources */,
 				338913A51C7B56D500D1FB0F /* AppDelegate.m in Sources */,
 				338913A21C7B56D500D1FB0F /* main.m in Sources */,
 			);

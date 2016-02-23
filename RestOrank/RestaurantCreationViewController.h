@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "RestaurantManager.h"
 
-@interface ViewController : UIViewController
+@interface RestaurantCreationViewController : UIViewController
 
 @property (strong, nonatomic) RestaurantManager *manager;
 
