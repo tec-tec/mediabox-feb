@@ -11,7 +11,7 @@
 @class Restaurant;
 @interface RestaurantManager : NSObject
 
-- (void)addRestaurant:(Restaurant *)restaurant;
-- (NSArray *)allRestaurants;
+- (void)addRestaurant:(nonnull Restaurant *)restaurant;
+- (nonnull NSArray<Restaurant *> *)allRestaurants;
 
 @end

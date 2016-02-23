@@ -7,10 +7,11 @@
 //
 
 #import "RestaurantManager.h"
+#import "Restaurant.h"
 
 @interface RestaurantManager ()
 
-@property (strong, nonatomic) NSMutableSet *restaurants;
+@property (strong, nonatomic) NSMutableSet<Restaurant *> *restaurants;
 
 @end
 
@@ -21,7 +22,7 @@
     return self.restaurants.allObjects;
 }
 
-- (void)addRestaurant:(Restaurant *)restaurant {
+- (void)addRestaurant:(nonnull Restaurant *)restaurant {
 
     [self.restaurants addObject:restaurant];
 }
