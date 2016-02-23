@@ -17,6 +17,7 @@
 		338913C61C7B56D500D1FB0F /* RestOrankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913C51C7B56D500D1FB0F /* RestOrankUITests.m */; };
 		338913D51C7B615600D1FB0F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913D41C7B615600D1FB0F /* Restaurant.m */; };
 		338913D61C7B618000D1FB0F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913D41C7B615600D1FB0F /* Restaurant.m */; };
+		338913D91C7C934400D1FB0F /* RestaurantManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913D81C7C934400D1FB0F /* RestaurantManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		338913C71C7B56D500D1FB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338913D31C7B615600D1FB0F /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
 		338913D41C7B615600D1FB0F /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		338913D71C7C934400D1FB0F /* RestaurantManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantManager.h; sourceTree = "<group>"; };
+		338913D81C7C934400D1FB0F /* RestaurantManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				338913A71C7B56D500D1FB0F /* ViewController.m */,
 				338913D31C7B615600D1FB0F /* Restaurant.h */,
 				338913D41C7B615600D1FB0F /* Restaurant.m */,
+				338913D71C7C934400D1FB0F /* RestaurantManager.h */,
+				338913D81C7C934400D1FB0F /* RestaurantManager.m */,
 				338913A91C7B56D500D1FB0F /* Main.storyboard */,
 				338913AC1C7B56D500D1FB0F /* Assets.xcassets */,
 				338913AE1C7B56D500D1FB0F /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338913D91C7C934400D1FB0F /* RestaurantManager.m in Sources */,
 				338913D51C7B615600D1FB0F /* Restaurant.m in Sources */,
 				338913A81C7B56D500D1FB0F /* ViewController.m in Sources */,
 				338913A51C7B56D500D1FB0F /* AppDelegate.m in Sources */,
