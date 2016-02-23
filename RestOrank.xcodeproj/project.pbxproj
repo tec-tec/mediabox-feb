@@ -19,6 +19,7 @@
 		338913D61C7B618000D1FB0F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913D41C7B615600D1FB0F /* Restaurant.m */; };
 		338913D91C7C934400D1FB0F /* RestaurantManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913D81C7C934400D1FB0F /* RestaurantManager.m */; };
 		338913DD1C7C9B6500D1FB0F /* RestaurantManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913DC1C7C9B6500D1FB0F /* RestaurantManagerTests.m */; };
+		338913E31C7CB33D00D1FB0F /* RestaurantListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913E21C7CB33D00D1FB0F /* RestaurantListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		338913D71C7C934400D1FB0F /* RestaurantManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantManager.h; sourceTree = "<group>"; };
 		338913D81C7C934400D1FB0F /* RestaurantManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantManager.m; sourceTree = "<group>"; };
 		338913DC1C7C9B6500D1FB0F /* RestaurantManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantManagerTests.m; sourceTree = "<group>"; };
+		338913E11C7CB33D00D1FB0F /* RestaurantListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantListTableViewController.h; sourceTree = "<group>"; };
+		338913E21C7CB33D00D1FB0F /* RestaurantListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 			children = (
 				338913A61C7B56D500D1FB0F /* RestaurantCreationViewController.h */,
 				338913A71C7B56D500D1FB0F /* RestaurantCreationViewController.m */,
+				338913E11C7CB33D00D1FB0F /* RestaurantListTableViewController.h */,
+				338913E21C7CB33D00D1FB0F /* RestaurantListTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 				338913D51C7B615600D1FB0F /* Restaurant.m in Sources */,
 				338913A81C7B56D500D1FB0F /* RestaurantCreationViewController.m in Sources */,
 				338913A51C7B56D500D1FB0F /* AppDelegate.m in Sources */,
+				338913E31C7CB33D00D1FB0F /* RestaurantListTableViewController.m in Sources */,
 				338913A21C7B56D500D1FB0F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
