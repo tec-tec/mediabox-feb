@@ -20,6 +20,7 @@
 		338913D91C7C934400D1FB0F /* RestaurantManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913D81C7C934400D1FB0F /* RestaurantManager.m */; };
 		338913DD1C7C9B6500D1FB0F /* RestaurantManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913DC1C7C9B6500D1FB0F /* RestaurantManagerTests.m */; };
 		338913E31C7CB33D00D1FB0F /* RestaurantListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913E21C7CB33D00D1FB0F /* RestaurantListTableViewController.m */; };
+		338913E71C7DB17800D1FB0F /* UIColor+MoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 338913E61C7DB17800D1FB0F /* UIColor+MoreColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		338913DC1C7C9B6500D1FB0F /* RestaurantManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantManagerTests.m; sourceTree = "<group>"; };
 		338913E11C7CB33D00D1FB0F /* RestaurantListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantListTableViewController.h; sourceTree = "<group>"; };
 		338913E21C7CB33D00D1FB0F /* RestaurantListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantListTableViewController.m; sourceTree = "<group>"; };
+		338913E51C7DB17800D1FB0F /* UIColor+MoreColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+MoreColors.h"; path = "../UIColor+MoreColors.h"; sourceTree = "<group>"; };
+		338913E61C7DB17800D1FB0F /* UIColor+MoreColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MoreColors.m"; path = "../UIColor+MoreColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 			children = (
 				338913A31C7B56D500D1FB0F /* AppDelegate.h */,
 				338913A41C7B56D500D1FB0F /* AppDelegate.m */,
+				338913E51C7DB17800D1FB0F /* UIColor+MoreColors.h */,
+				338913E61C7DB17800D1FB0F /* UIColor+MoreColors.m */,
 				338913DE1C7CB06800D1FB0F /* Controllers */,
 				338913DF1C7CB07700D1FB0F /* Models */,
 				338913E01C7CB08200D1FB0F /* Views */,
@@ -316,6 +321,7 @@
 				338913D91C7C934400D1FB0F /* RestaurantManager.m in Sources */,
 				338913D51C7B615600D1FB0F /* Restaurant.m in Sources */,
 				338913A81C7B56D500D1FB0F /* RestaurantCreationViewController.m in Sources */,
+				338913E71C7DB17800D1FB0F /* UIColor+MoreColors.m in Sources */,
 				338913A51C7B56D500D1FB0F /* AppDelegate.m in Sources */,
 				338913E31C7CB33D00D1FB0F /* RestaurantListTableViewController.m in Sources */,
 				338913A21C7B56D500D1FB0F /* main.m in Sources */,

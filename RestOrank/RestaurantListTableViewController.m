@@ -9,6 +9,7 @@
 #import "RestaurantListTableViewController.h"
 #import "RestaurantManager.h"
 #import "Restaurant.h"
+#import "UIColor+MoreColors.h"
 
 @interface RestaurantListTableViewController ()
 
@@ -20,6 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    self.view.backgroundColor = [UIColor pinkColor];
+//    self.view.backgroundColor = [self.view.backgroundColor semiTranslucent];
 }
 
 - (void)didReceiveMemoryWarning {
