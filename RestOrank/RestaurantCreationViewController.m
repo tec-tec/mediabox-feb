@@ -52,7 +52,7 @@
 - (void)resetForm {
 
     self.nameTextField.text = @"";
-    self.addressTextField.text = nil;
+    self.addressTextField.text = @"";
     self.commentTextField.text = nil;
     [self.gradeSlider setValue:5.0 animated:YES];
 
