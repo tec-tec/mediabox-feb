@@ -10,6 +10,7 @@
 #import "RestaurantManager.h"
 #import "Restaurant.h"
 #import "UIColor+MoreColors.h"
+#import "RestaurantCreationViewController.h"
 
 @interface RestaurantListTableViewController ()
 
@@ -49,6 +50,16 @@
     cell.detailTextLabel.text = @(currentResto.grade).stringValue;
 
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+
+    if ([segue.identifier isEqualToString:@"showForm"]) {
+
+        RestaurantCreationViewController *cont = segue.destinationViewController;
+        cont.manager = self.manager;
+    }
+
 }
 
 - (RestaurantManager *)manager {
