@@ -46,7 +46,8 @@
 
     NSLog(@"%@",[self.manager allRestaurants]);
 
-    [self resetForm];
+    [self dismissViewControllerAnimated:YES completion:nil];
+//    [self resetForm];
 }
 
 - (void)resetForm {
