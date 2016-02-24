@@ -42,7 +42,8 @@
     // Configure the cell...
     Restaurant *currentResto = self.manager.allRestaurants[indexPath.row];
     cell.textLabel.text = currentResto.name;
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", currentResto.grade];
+//    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", currentResto.grade];
+    cell.detailTextLabel.text = @(currentResto.grade).stringValue;
 
     return cell;
 }
